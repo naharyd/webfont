@@ -1,0 +1,54 @@
+{
+  "name": "webfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "_run": "yarn run build && node lib/index.js",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "globby": "^9.0.0",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "svg2ttf": "^4.2.0",
+    "svgicons2svgfont": "^9.0.4",
+    "ttf2eot": "^2.0.0",
+    "ttf2woff": "^2.0.1",
+    "ttf2woff2": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/globby": "^8.0.0",
+    "@types/lodash": "^4.14.120",
+    "@types/mkdirp": "^0.5.2",
+    "@types/ttf2woff2": "^2.0.0",
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  },
+  "keywords": [
+    "webfont",
+    "icons",
+    "gruntplugin",
+    "font",
+    "webfont",
+    "fontforge",
+    "font-face",
+    "woff",
+    "woff2",
+    "ttf",
+    "svg",
+    "eot",
+    "truetype",
+    "css",
+    "icon"
+  ]
+}
